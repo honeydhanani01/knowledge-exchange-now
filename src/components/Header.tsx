@@ -35,6 +35,12 @@ const Header = () => {
             My Requests
           </Link>
           <Link 
+            to="/profile" 
+            className="text-muted-foreground hover:text-foreground transition-smooth"
+          >
+            Profile
+          </Link>
+          <Link 
             to="/about" 
             className="text-muted-foreground hover:text-foreground transition-smooth"
           >
@@ -91,6 +97,13 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               My Requests
+            </Link>
+            <Link 
+              to="/profile" 
+              className="block text-muted-foreground hover:text-foreground transition-smooth"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Profile
             </Link>
             <Link 
               to="/about" 
